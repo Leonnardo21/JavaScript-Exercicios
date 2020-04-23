@@ -1,4 +1,4 @@
-const formatarValorDecimal = (valorEmReais) =>{
+const formatarValorDecimal = (valorEmReais) => {
     valorEmReais = `R$ ${valorEmReais.toFixed(2).toString().replace('.', ',')}`
     console.log(valorEmReais)
 }
